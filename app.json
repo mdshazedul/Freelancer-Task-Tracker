@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "কাজ ট্র্যাকার",
+    "slug": "kaj-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#dc2626"
+      },
+      "package": "com.sajib.kajtracker",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.sajib.kajtracker",
+      "supportsTablet": false
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "scheme": "kajtracker",
+    "entryPoint": "./index.js",
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      }
+    }
+  }
+}
